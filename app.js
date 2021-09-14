@@ -1,10 +1,10 @@
 function Calculator() {
 
-	const amount = document.querySelector("#amount").value;
-    const rate  = document.querySelector("#rate").value;
-    const months = document.querySelector("#months").value;
+	const amount = document.querySelector("#Amount").value;
+    const rate  = document.querySelector("#Rate").value;
+    const months = document.querySelector("#Months").value;
     const interest = (amount * (rate * 0.01)) / months;
     const total = ((amount / months) + interest).toFixed(2);
 
-    document.querySelector("#total").innerHTML = "Total (Rs.) : "+total;
+    document.querySelector("#Total").innerHTML = "Total (Rs.) : "+total;
 }
