@@ -6,5 +6,5 @@ function Calculator() {
     const interest = (amount * (rate * 0.01)) / months;
     const total = ((amount / months) + interest).toFixed(2);
 
-    document.querySelector("#total").innerHTML = total;
+    document.querySelector("#total").innerHTML = "Total (Rs.) : "+total;
 }
